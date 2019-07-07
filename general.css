@@ -1,0 +1,198 @@
+
+
+body{
+     
+    margin:0; padding:0;
+}
+
+                       /*cabezera de la pagina ordenador*/
+
+header{
+    width: 100%;
+    height: 56px;
+    overflow: hidden;
+    background-color: black;
+    opacity: 0.8;
+}
+.header{
+    position: fixed;
+}
+#logo{
+    height: 50px;
+    margin-right: auto;
+    -webkit-transition:all 300ms ease;
+    -o-transition:all 300ms ease;
+    transition:all 300ms ease;
+}
+#logo2{
+    height: 29px;
+    margin-top:-25px;
+    margin-right:10px;
+    float: right;
+}
+.sesion:hover.sesion{
+    opacity: 0.5;
+}
+.contenido2{
+    width: 100%;
+    max-width: 10000px;
+    overflow: hidden;
+}
+#prueba{
+    width: 100%;
+}
+header nav{
+    margin-top:-36px ;
+    margin-left:36.7%;
+    margin-right: 24.5%;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 13px;
+    -webkit-transition:all 600ms ease;
+    -o-transition:all 600ms ease;
+    transition:all 600ms ease;
+}
+.header nav a:hover{
+    border-radius: 21px;
+    background: orange;
+    color: black;
+    
+}
+ #logo:hover#logo{
+    height: 50px;
+    margin-right: -3px;
+    opacity: 0.5;
+}
+#logoa:hover#logoa{
+    height: 38px;
+    opacity: 0.5;
+}
+
+.sesion{
+    color: white;
+    float: right;
+    margin-top: -20px;
+    text-decoration: none;
+    -webkit-transition:all 300ms ease;
+    -o-transition:all 300ms ease;
+    transition:all 300ms ease;
+}
+.letra{
+    margin-right:40px;
+    font-size: 17px;
+}
+
+               /*ajuste pequeño a el header de ordenador*/
+
+@media screen and (max-width: 1080px){
+.letra{
+        color: transparent;
+      }
+header nav{
+        margin-left:30.7%;
+        margin-top: -39px;
+          }
+    
+}
+
+             /*ajuste pequeño 2 al header de ordenador*/
+
+@media screen and (max-width: 930px){
+.contenido nav a {
+        font-size: 14px;
+    }
+header{
+        height:  48px;
+        position: fixed;
+    } 
+header nav{
+    margin-top: -34px;    
+    }    
+#logo{
+    height: 40px;
+    }  
+.header #logo2{
+    height:  26px;
+    margin-top: -20px;
+    } 
+ #logo:hover#logo{
+    height: 40px;
+    opacity: 0.5;    
+    }
+}
+
+                /*ajuste pequeño 3 al header de ordenador*/
+
+@media screen and (max-width: 810px){     
+.header #logo{
+    display: block;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    }  
+.contenido nav{
+    width: 310px;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contenido nav a{
+    margin-left: auto;
+    margin-right: auto;
+} 
+.header{
+        height: 88px;
+    }
+.sesion{
+    margin-top: -28px;
+    display: block;
+    width: 30px;
+    -webkit-transition:all 600ms ease;
+    -o-transition:all 600ms ease;
+    transition:all 600ms ease;
+    }
+.header #logo2{
+    margin-top: -35px;
+}
+ #logo:hover#logo{
+    height: 40px;
+     margin-right: auto;
+     margin-left: auto;
+    opacity: 0.5;    
+    }    
+}
+                /*cabezera para dispositivos mobiles*/
+
+
+
+
+
+                      /*contenido del sitio web*/
+
+#bajo{
+    height: 1000px;
+}
+
+                        /*footer del sitio web*/
+
+.pie{
+    background: black;
+    height: 80px;
+    opacity: 0.95;
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+}
+                 
+
+
+                       
+
+
+
+
+                     

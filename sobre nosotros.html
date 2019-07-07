@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Master Games</title>
+        <meta name="description" content="toda la informacion sobre master games">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="jquery-3.4.1.js"></script>
+        <link rel="stylesheet" href="estilos2.css">
+        <link rel="stylesheet" href="general.css">
+    </head>
+    <body>
+
+                    <!--header de la web en ordenador-->
+     
+      <header class="header">
+         <a href="master games.html" class="logo">
+                  <img src="logo.png" id="logo"> 
+         </a>
+         <div class="contenido">
+              <nav>
+                  <a href="sobre nosotros.html">Sobre Nosotros</a>
+                  <a href="#">Como Jugar</a>
+                  <a href="#">Contactanos</a>
+              </nav>
+         </div>
+            <a href="#" class="sesion">
+                <div class="letra">Iniciar Sesión</div>
+                <img src="usuario.png" id="logo2">
+            </a>
+      </header>
+                      
+                 <!--header de la web en moviles-->
+        
+    <header class="header2">
+         <a href="master games.html" class="logo">
+            <img src="logo.png" id="logoa"> 
+         </a>
+        <a href="#" class="sesion">
+          <img src="usuario.png" id="logo2">
+        </a>
+          <ul>
+                <li id="home2"><img  src="casa.png" id="home">
+                </li> 
+                
+            </ul>
+     <div class="home">
+          
+            <ul id="men">
+                    <a id="menu" href="sobre nosotros.html"><li id="menu"> Sobre Nosotros</li> </a>
+                    <a id="menu" href="#"><li id="menu">Como Jugar</li></a>
+                    <a id="menu" href="#"><li id="menu">Contactanos</li></a>
+            </ul> 
+         </div>
+    
+        
+         
+         <div class="contenido">
+              
+          </div>
+               
+      </header>
+                       <!--espacio para script-->
+        
+        <script type="text/javascript">
+           if(screen.width < 792 ){
+               $(".header").hide();
+           }else{
+            $(".header2").hide();
+           }
+        </script>  
+      
+                       <!--contenido del sitio web-->
+      
+        <section class="contenido2">
+          <img src="prueba.jpg" id="prueba">
+           
+          <div id="bajo">
+              este es sobre nosotros
+          </div>
+        </section>
+       <footer class="pie">
+             <div>
+             </div>
+        </footer>
+    </section>         
+    </body>
+        
+    
