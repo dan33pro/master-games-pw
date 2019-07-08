@@ -41,6 +41,7 @@ body{
 }
 #prueba{
     width: 100%;
+    position: ;
 }
 .header nav{
     margin-top:-40px ;
@@ -325,6 +326,190 @@ nav ul li a .primero {
 #bajo{
     height: 1000px;
     background: white;
+}
+.title{
+    font-family: 'Lobster', cursive;
+    margin-top:-50%;
+    text-shadow:-4px -4px black;
+    font-size: 180px;
+    text-align: center;
+    background: transparent;
+    color: white;
+}
+.lema{
+    color: white;
+    margin-top: 20px;
+    font-size: 28px;
+    text-shadow: -1px -1px black; 
+    text-align: center;
+}
+#opcionesdedescarga{
+    display: table;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#opcionesdedescarga li{
+    display: table-cell;
+}
+#cuadro{
+    display: block;
+    width: 240px;
+    margin-left: 70px;
+}
+#logoopciones{
+    height: 60px;
+    border-radius: 14px;
+} 
+@media screen and (max-width:910px){
+    .title{
+    font-family: 'Lobster', cursive;
+    margin-top:-45%;
+    text-shadow:-4px -4px black;
+    font-size: 120px;
+    text-align: center;
+    background: transparent;
+    color: white;
+         }
+    .lema{
+         color: white;
+    margin-top: 20px;
+    font-size: 22px;
+    text-shadow: -1px -1px black; 
+    text-align: center;
+    }
+    #logoopciones{
+    height: 50px;
+    border-radius: 14px;
+} 
+    
+}
+@media screen and (max-width:800px){
+    .title{
+    font-family: 'Lobster', cursive;
+    margin-top:-45%;
+    text-shadow:-4px -4px black;
+    font-size: 80px;
+    text-align: center;
+    background: transparent;
+    color: white;
+         }
+}
+@media screen and (max-width:700px){
+    .title{
+    font-family: 'Lobster', cursive;
+    margin-top:-45%;
+    text-shadow:-4px -4px black;
+    font-size: 70px;
+    text-align: center;
+    background: transparent;
+    color: white;
+         }
+     .lema{
+         color: white;
+    margin-top: 20px;
+    font-size: 16px;
+    text-shadow: -1px -1px black; 
+    text-align: center;
+    }
+     #logoopciones{
+    height: 40px;
+    border-radius: 14px;
+} 
+    #opcionesdedescarga{
+    display: table;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+@media screen and (max-width:620px){
+    .title{
+    font-family: 'Lobster', cursive;
+    margin-top:-45%;
+    text-shadow:-4px -4px black;
+    font-size: 70px;
+    text-align: center;
+    background: transparent;
+    color: white;
+         }
+     .lema{
+         color: white;
+    margin-top: 20px;
+    font-size: 16px;
+    text-shadow: -1px -1px black; 
+    text-align: center;
+    }
+     #logoopciones{
+    height: 35px;
+    border-radius: 14px;
+} 
+    #opcionesdedescarga{
+    display: table;
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    #opcionesdedescarga li{
+    display: block;
+}
+}
+@media screen and (max-width: 620px){
+    .title{
+    font-family: 'Lobster', cursive;
+    margin-top:-50%;
+    text-shadow:-4px -4px black;
+    font-size: 70px;
+    text-align: center;
+    background: transparent;
+    color: white;
+         }
+}
+@media screen and (max-width: 540px){
+    .title{
+    font-family: 'Lobster', cursive;
+    margin-top:-50%;
+    text-shadow:-4px -4px black;
+    font-size: 60px;
+    text-align: center;
+    background: transparent;
+    color: white;
+         }
+     .lema{
+         color: white;
+    margin-top: 20px;
+    font-size: 12px;
+    text-shadow: -1px -1px black; 
+    text-align: center;
+    }
+}
+@media screen and (max-width: 500px){
+    .title{
+    font-family: 'Lobster', cursive;
+    margin-top:-57%;
+    text-shadow:-4px -4px black;
+    font-size: 60px;
+    text-align: center;
+    background: transparent;
+    color: white;
+         }
+     .lema{
+         color: white;
+    margin-top: 20px;
+    font-size: 12px;
+    text-shadow: -1px -1px black; 
+    text-align: center;
+    }
+     
+     #logoopciones{
+    height: 30px;
+    border-radius: 14px;
+} 
+ #opcionesdedescarga li{
+    display: block;
+     margin-top: 3px;
+}
+    
 }
 
                         /*footer del sitio web*/
